@@ -1,0 +1,32 @@
+.map-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+
+#mapImage {
+    position: relative; /* Bu satır eklendi */
+    /* height: 500px;
+    width: 500px; */
+}
+
+#cursor {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    border-radius: 50%;
+    pointer-events: none;
+    z-index: 1; 
+}
+
+.point-marker {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+}
+
