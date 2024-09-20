@@ -153,30 +153,30 @@ def arabasur(cx, cy, cyaw, gx, gy, gyaw,newx,newy):
                     kontrol_signal = Kp * error
                     t2 = time.time()
                     print_and_log("burda")
-                    '''if i==0:
+                    if i==0:
                         
-                        if (bettercallsaul.obje_yes_no() > 0):
-                            set_globkurtarici(1)
-                            print_and_log("surda")
-                            moveParams = "1,0,0,0,0,1,2\n"      
-                            sendMove(moveParams)
-                            yesyaw = yawRead()
-                            print(yesyaw)
-                            gecensure = t2 - t1
-                            kalansure = t_s - gecensure
-                            kalanyol = (inf[3] * kalansure) / t_s
-                            gidilenyol = (inf[3] * gecensure) / t_s
+                    if (bettercallsaul.obje_yes_no() > 0):
+                        set_globkurtarici(1)
+                        print_and_log("surda")
+                        moveParams = "1,0,0,0,0,1,2\n"      
+                        sendMove(moveParams)
+                        yesyaw = yawRead()
+                        print(yesyaw)
+                        gecensure = t2 - t1
+                        kalansure = t_s - gecensure
+                        kalanyol = (inf[3] * kalansure) / t_s
+                        gidilenyol = (inf[3] * gecensure) / t_s
 
-                            c_x = inf[5]
-                            c_y = inf[6]
-                            objeuzaklik,o_x1,o_x2 = bettercallsaul.kamera_to_uzaklik()
-                            nesne_x =  int(c_x + int(np.float64(objeuzaklik/2) * np.cos(np.radians(float(90)))))
-                            nesne_y =  int(c_y + int(np.float64(objeuzaklik/2) * np.sin(np.radians(float(90)))) )
-                            print_and_log("nesnex",nesne_x)
-                            print_and_log("nesney",nesne_y)
-                            #arabasur(c_x, c_y, yesyaw, gx, gy, gyaw,180,250)
-                            arabasur(82.10752228430181,66.40688533054077,70,250,350,0,180,260)
-                            break'''
+                        c_x = inf[5]
+                        c_y = inf[6]
+                        objeuzaklik,o_x1,o_x2 = bettercallsaul.kamera_to_uzaklik()
+                        nesne_x =  int(c_x + int(np.float64(objeuzaklik/2) * np.cos(np.radians(float(90)))))
+                        nesne_y =  int(c_y + int(np.float64(objeuzaklik/2) * np.sin(np.radians(float(90)))) )
+                        print_and_log("nesnex",nesne_x)
+                        print_and_log("nesney",nesne_y)
+                        arabasur(c_x, c_y, yesyaw, gx, gy, gyaw,180,250)
+                        
+                        break
                     
                     print('else')
                     print_and_log("error:", error)
