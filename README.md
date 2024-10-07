@@ -42,4 +42,4 @@ cd otonomrobot
 
 - Arduino kartlarının COM portlarını kod içerisinden kontrol et.
 - Raspberry üzerinde görüntü algılama fonksiyonunu çalıştır.
-
+- moveP2P.py dosyasını çalıştır.
