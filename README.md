@@ -36,8 +36,9 @@ Projeyi yerel ortamınıza klonlayın:
 ```bash
 git clone https://github.com/Yunsst/otonomrobot
 cd otonomrobot
+```
 
-## Kullanim
+## Kullanım
 
 - Arduino kartlarının COM portlarını kod içerisinden kontrol et.
 - Raspberry üzerinde görüntü algılama fonksiyonunu çalıştır.
