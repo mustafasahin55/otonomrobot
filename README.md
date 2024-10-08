@@ -13,7 +13,7 @@ Bu proje, iç mekanlarda, özellikle merdivenli binalarda etkin bir şekilde har
 
 ## Proje Hakkında
 
-Bu proje, Marmara Üniversitesi Teknoloji Fakültesi Mekatronik Mühendisliği Bölümü öğrencileri Mustafa Şahin ve Yunus Top tarafından, Dr. Öğr. Üy. Koray Erhan danışmanlığında hazırlanmıştır. Proje, özellikle kurtarma operasyonları ve tehlikeli ortamlarda insansız keşif gibi alanlarda büyük potansiyel taşımaktadır.
+Bu proje, Marmara Üniversitesi Teknoloji Fakültesi Mekatronik Mühendisliği Bölümü öğrencileri tarafından hazırlanmıştır. Proje, özellikle kurtarma operasyonları ve tehlikeli ortamlarda insansız keşif gibi alanlarda büyük potansiyel taşımaktadır.
 
 ## Özellikler
 
