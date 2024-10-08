@@ -41,5 +41,5 @@ cd otonomrobot
 ## Kullanım
 
 - Arduino kartlarının COM portlarını kod içerisinden kontrol et.
-- Raspberry üzerinde görüntü algılama fonksiyonunu çalıştır.
+- Raspberry üzerinde görüntü algılama fonksiyonunu çalıştır(mainFV2.cpp).
 - moveP2P.py dosyasını çalıştır.
