@@ -117,7 +117,7 @@ npm install
 
 ```bash
 cd /path/to/project/otonomrobot
-python mainFV2.cpp
+gcc mainFV2.cpp
 ```
 
 3. Raspberry Pi üzerinde ana kontrol yazılımını başlatın:
