@@ -113,10 +113,16 @@ npm install
 ### Robot Başlatma
 
 1. Tüm sistemleri açın ve güç kaynağını bağlayın
-2. Raspberry üzerinde görüntü algılama fonksiyonunu çalıştır(mainFV2.cpp).
+2. Raspberry üzerinde görüntü algılama fonksiyonunu çalıştır.
+
+```bash
+cd /path/to/project/otonomrobot
+python mainFV2.cpp
+```
+
 3. Raspberry Pi üzerinde ana kontrol yazılımını başlatın:
 ```bash
-cd /path/to/project
+cd /path/to/project/otonomrobot
 python mainP2P.py
 ```
 
