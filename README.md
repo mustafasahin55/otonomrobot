@@ -122,7 +122,7 @@ python mainFV2.cpp
 
 3. Raspberry Pi üzerinde ana kontrol yazılımını başlatın:
 ```bash
-cd /path/to/project
+cd /path/to/project/otonomrobot
 python mainP2P.py
 ```
 
